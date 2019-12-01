@@ -66,6 +66,7 @@ connection.query(querytext,(err,result)=>
 if(err==null)
 {
 console.log(result);
+console.log(result);
 response.send(JSON.stringify(result));
 }
 else
